@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../image/soft_background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+img{
+    max-width: 250px;
+    border-radius: 30px;
+    
+}
+h1{
+    margin-left: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 76px;
+    font-weight: 700;
+    color:rgb(77, 0, 77);
+}
+h2{
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 44px;
+    font-weight: 700;
+    color:rgb(77, 0, 77);
+}
+.blog__form{
+    margin-left: 30px;
+}
+input{
+    width: 350px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(77, 0, 77);
+}
+button{
+    width: 230px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(77, 0, 77);;
+    color:rgb(245, 212, 245);
+
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(153, 0, 38);
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+}
+p{
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 500;
+    color:rgb(51, 0, 12);
+}
