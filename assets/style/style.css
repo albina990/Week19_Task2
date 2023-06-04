@@ -58,7 +58,7 @@ button{
     font-weight: 700;
     background-color: rgb(77, 0, 77);;
     color:rgb(245, 212, 245);
-
+    cursor: pointer;
 }
 h3{
     font-family: 'Dancing Script', cursive;

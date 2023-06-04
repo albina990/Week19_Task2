@@ -23,12 +23,14 @@ function createPost(title, text) { // функция, которая прини�
     })
         .then((response) => response.json())
         .then((data) => {
-            let postHtml = `
+            if(data.title != '' && data.body != ''){
+                let postHtml = `
                 <div class="blog__item">
                     <h3>${data.title}</h3>
                     <p>${data.body}</p>
                 </div>`;
             div.innerHTML += postHtml;
+            } 
         })
 }
 
